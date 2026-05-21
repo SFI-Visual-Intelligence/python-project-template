@@ -1,3 +1,4 @@
+
 cff-version: 1.2.0
 title: "Project title"
 version: 1.8.0
@@ -9,8 +10,10 @@ authors:
   - given-names: John
     family-names: Doe
     affiliation: UiT The Arctic University of Norway
-    orcid: "https://orcid.org/<yours>"
+    orcid: "https://orcid.org" # add your orcid link
 keywords:
   - computer science
   - machine learning
   - computer vision
+date-released: 2026-05-21
+url: "https://github.com"

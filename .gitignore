@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# pytorch and ml stuff not to push to github
+.venv/
+outputs/
+wandb/
+mlruns/
+data/
+*.ckpt
+*.pt
+*.pth
+*.tif
+*.nc
+*.zarr/
+__pycache__/
+.ipynb_checkpoints/

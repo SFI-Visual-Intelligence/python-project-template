@@ -50,8 +50,10 @@ How to run one minimal experiment.
 Python version, uv.lock, seeds, hardware assumptions.
 
 ## Citation and LICENCE
-Explain how people can cite your work by filling in:
-`CITATION.cff` with your info and update the year and name in `LICENCE`.
+Explain how people can cite your work by filling in `CITATION.cff` with your info.
+
+## License
+MIT license by default. Update your name and the year in `LICENCE`.
 
 ## Contact / maintainers
-
+If you are a member of SFI Visual Intelligence and want to make changes, go ahead, it's open.

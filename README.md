@@ -1,32 +1,27 @@
-> This document is written both as a guide and example. Explanation parts are in blockquotes and can simply be removed while building the repository.
-
 # Project Title
 
-> One short paragraph describing the purpose of the project.
+One short paragraph describing the purpose of the project.
 
 ## Installation
 
-> Whether your project is built around pip, conda, uv or another tool, provide here the necessary information for a full setup. Inform in the README about the basic setup needs (coding language and last version it is updated for, prefered OS, hardware and processing units).
+Whether your project is built around pip, conda, uv or another tool, provide here the necessary information for a full setup. Inform in the README about the basic setup needs (dependencies, preferred OS and supported hardware architecture). 
 
-> To facilitate it for other users, preferably prepare an install that is usable on the various system softwares and common computer hardwares. If that isn't possible, try to document the installation required to make it work with different computers and systems, and if any isn't supported. You can also mention if the project has only been tested with a specific OS or processors, or for example if it works with different ones but is faster on a prefered one.
+To facilitate it for other users, preferably prepare installing instructions for supported operating systems and hardware architectures. If that isn't possible, try to document the installation required to make it work with different computers and systems, and if any isn't supported. You can also mention if the project has only been tested with a specific OS or processor architecture, or for example if it works with different ones but is faster on a preferred one.
 
-> We recommend using [`uv`](https://docs.astral.sh/uv/) as it is a fast and easy tool, enables building the code into its own package and gathers all dependencies into a single file for an easier install. Use the `pyproject.toml` file to declare the dependencies.
+For python based projects, we recommend using [`uv`](https://docs.astral.sh/uv/) as it is a fast and easy tool, that enables building the code into its own package and gathers all dependencies into a single file for an easier install.
+Here's how it can be presented:
 
-> Here's how it can be presented:
+> This project uses [`uv`](https://docs.astral.sh/uv/) for dependency management.
 
-This project uses [`uv`](https://docs.astral.sh/uv/) for dependency management.
+> Install dependencies in a local venv with:
 
-*Here add more detail information about the install, as explained above*
-
-Install dependencies in a local venv with:
 ```bash
 uv sync
 ```
-Dependencies are listed in `pyproject.toml`.
+Dependencies are listed in `pyproject.toml`. 
+Use `uv add ...` to add packages and view [`uv`](https://docs.astral.sh/uv/) docs for more info.
 
-Use `uv add ...` to add packages, and view [`uv`](https://docs.astral.sh/uv/) docs for more info.
-
-### Quick start
+## Quick start
 Run the main file with:
 
 ```bash
@@ -65,7 +60,7 @@ Python version, uv.lock, seeds, hardware assumptions.
 Explain how people can cite your work by filling in `CITATION.cff` with your info.
 
 ## License
-MIT license by default. Update your name and the year in `LICENCE`.
+MIT license by default. Update your name and the year in `LICENSE`.
 
 ## Contact / maintainers
-If you are a member of SFI Visual Intelligence and want to make changes, go ahead, it's open.
+If you are a member of the [SFI Visual Intelligence organisation](https://github.com/SFI-Visual-Intelligence) and want to make changes, go ahead, it's open.

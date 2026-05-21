@@ -8,20 +8,23 @@ Whether your project is built around pip, conda, uv or another tool, provide her
 
 To facilitate it for other users, preferably prepare an install that is usable on the various system softwares and common computer hardwares. If that isn't possible, try to document the installation required to make it work with different computers and systems, and if any isn't supported. You can also mention if the project has only been tested with a specific OS or processors, or for example if it works with different ones but is faster on a prefered one.
 
-We recommend using [`uv`](https://docs.astral.sh/uv/) as it is a fast and easy tool, enables building the code into its own package and gathers all dependencies into a single file for an easier install.
+We recommend using [`uv`](https://docs.astral.sh/uv/) as it is a fast and easy tool, enables building the code into its own package and gathers all dependencies into a single file for an easier install. Use the `pyproject.toml` file to declare the dependencies.
+
 Here's how it can be presented:
 
 > This project uses [`uv`](https://docs.astral.sh/uv/) for dependency management.
-
+> 
+> [Here add more detail information about the install, as explained above]
+> 
 > Install dependencies in a local venv with:
+> ```bash
+> uv sync
+> ```
+> Dependencies are listed in `pyproject.toml`.
+> 
+> Use `uv add ...` to add packages, and view [`uv`](https://docs.astral.sh/uv/) docs for more info.
 
-```bash
-uv sync
-```
-Dependencies are listed in `pyproject.toml`. 
-Use `uv add ...` to add packages and view [`uv`](https://docs.astral.sh/uv/) docs for more info.
-
-## Quick start
+### Quick start
 Run the main file with:
 
 ```bash

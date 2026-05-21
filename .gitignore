@@ -231,3 +231,7 @@ data/
 *.zarr/
 __pycache__/
 .ipynb_checkpoints/
+
+## Allow these specific cases in data
+!data/README.md
+!data/example/
